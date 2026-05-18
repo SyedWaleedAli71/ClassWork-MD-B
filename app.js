@@ -208,3 +208,55 @@
 // console.log(sum);
 
 // 
+// *******************Saturday 16 May ************//
+// 
+// function massage(callBack){
+//     console.log("Learning JavaScript");
+//     callBack();
+// }
+// function done(){
+//     console.log("Lesson Completed");
+    
+// }
+// massage(done);
+
+// 
+// function calculate(num , callBack){
+// callBack(num);
+// }
+
+// function square(x){
+// console.log(x * x);
+
+// }
+// calculate(9, square);
+
+// 
+// let students = ["Syed", "Waleed","Ali"];
+// students.forEach(function(student){
+//     console.log(students);
+// });
+
+// 
+// function fetchData(callBack){
+// setTimeout(() =>{
+// let data = {name: "Hmaza", age: 22}
+// callBack(data)
+// },3000);
+// }
+
+// fetchData(function(result){
+//     console.log(result.name);
+//     console.log(result.age);
+// });
+
+
+// 
+// PROMISE
+// let myPromise = new Promise((resolve, result){
+//     resolve("Data Load...");
+// });
+// myPromise.then((result) =>{
+// console.log(result);
+// });
+

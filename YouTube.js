@@ -74,3 +74,47 @@
 // 
 // Template Literals
 // 
+// let firstName = "Syed";
+// let lastName = "Waleed";
+
+// console.log(firstName + " " + lastName);
+// console.log(`Welcome ${firstName} ${lastName}`);
+// 
+
+// let arr = ["Abc", 123, true, 100];
+// let [firstValue,secondValue = 50 ,thirdValue,forthValue,] = arr;
+// console.log(firstValue);
+// console.log(secondValue);
+// console.log(thirdValue);
+
+// 
+// let obj = {
+// name : "Waleed",
+// age : 22,
+// city: "Karachi"
+// }
+
+// let {name: myName , age , city} = obj;
+// console.log(myName);
+
+
+// 
+// let age = +prompt("Enter Your Age") ;
+
+// let check = age < 20 || age> 30 ? console.log("Allowed.."): console.log("Not Allowed..");
+
+// method array ES5****************
+// let arr = [1,2,3,4,5];
+// let arr2 = ["Syed","Waleed","ali",];
+
+// let result = arr.concat(arr2);
+// console.log(result);
+// 
+// 
+// Spread Operator
+// let arr = [1,2,3,4,5];
+// let arr2 = [...arr, "Syed","Waleed","ali",];
+// console.log(arr2);
+
+// 
+

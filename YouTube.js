@@ -299,3 +299,69 @@
 
 // });
 // 
+// let promise = new Promise((resolve, reject) => {
+//     let status = "isAvailable"
+
+//     if (status == "isAvailable"){
+//         resolve("Succesfull")
+
+//     }else{
+//         reject("Unseccesfull..")
+//     }
+// });
+// promise.then((data)=>{
+// console.log(data);
+// })
+// .catch((error)=>{
+//     console.log(error);
+    
+// })
+
+// let promise = new Promise((resolve, reject)=>{
+//     let status = "IsAvailable"
+
+//     if(status == "IsAvailable"){
+//         resolve("Succesfull..")
+//     }else{
+//         reject("UnSeccesFull..")
+//     }
+// });
+// promise.then((data)=>{
+//     console.log(data);
+    
+// }).catch((error)=>{
+//     console.log(error);
+    
+// })
+
+// let promise = new Promise((resolve, reject)=>{
+//     let status = "IsAvailabe"
+
+//     if(status == "IsAvailabe"){
+//         resolve ("SuccesFull..")
+//     }else{
+//         reject ("IsNoAvalaible")
+//     }
+// })
+// promise.then((data)=>{
+//     console.log(data);
+    
+// }).catch((errer)=>{
+//     console.log(error);
+    
+// })
+// // 
+// let promise = new Promise((resolve , reject)=>{
+//     let status = "isNotAvailbe"
+//     if(status == "isAvailbe"){
+//         resolve("Succesfull..")
+//     }else{
+//         reject("Unseccesfull")
+//     }
+// })
+// promise.then((data)=>{
+//     console.log(data);
+// }).catch((error)=>{
+//     console.log(error);
+    
+// })
